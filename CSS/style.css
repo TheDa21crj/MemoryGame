@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 *::selection {
     background-color: gold;
     color: white;
@@ -29,31 +34,31 @@
 }
 
 .c-hideq:hover {
-    background-image: url("./SVG/cardsHover.svg");
+    background-image: url("./../SVG/cardsHover.svg");
 }
 
 .batman1 {
-    background-image: url("./Img/Daredevil.jpg");
+    background-image: url("./../Img/Daredevil.jpg");
 }
 
 .spiderman1 {
-    background-image: url("./Img/deadpool.jpg");
+    background-image: url("./../Img/deadpool.jpg");
 }
 
 .joker1 {
-    background-image: url("./Img/kingpin.jpg");
+    background-image: url("./../Img/kingpin.jpg");
 }
 
 .tiger1 {
-    background-image: url("./Img/spiderman.jpg");
+    background-image: url("./../Img/spiderman.jpg");
 }
 
 .superman1 {
-    background-image: url("./Img/supergirl.jpg");
+    background-image: url("./../Img/supergirl.jpg");
 }
 
 .c-hideq {
-    background-image: url("./SVG/cards.svg");
+    background-image: url("./../SVG/cards.svg");
 }
 
 .card.done {
