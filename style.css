@@ -4,21 +4,6 @@
     color: white;
 }
 
-
-/* #svgDiv svg {
-    width: 200px;
-    height: 200px;
-    display: none;
-} */
-
-
-/* .CardImg {
-    opacity: 0;
-    visibility: hidden;
-    width: 200px;
-    height: 200px;
-} */
-
 .card {
     margin: 20px;
     display: inline-block;
@@ -30,19 +15,7 @@
     border-width: 1px;
 }
 
-
-/* .card:hover>#svgDiv svg {
-    display: flex;
-    background-color: orange;
-} */
-
-
-/* .card:hover {
-    background-color: orange;
-} */
-
 .batman1 {
-    /* background-color: black; */
     background-image: url("./Img/Daredevil.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +23,6 @@
 }
 
 .spiderman1 {
-    /* background-color: red; */
     background-image: url("./Img/deadpool.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +30,6 @@
 }
 
 .joker1 {
-    /* background-color: violet; */
     background-image: url("./Img/kingpin.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -66,7 +37,6 @@
 }
 
 .tiger1 {
-    /* background-color: yellow; */
     background-image: url("./Img/spiderman.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -74,7 +44,6 @@
 }
 
 .superman1 {
-    /* background-color: blue; */
     background-image: url("./Img/supergirl.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -82,12 +51,7 @@
 }
 
 .c-hideq {
-    /* background-color: green; */
     background-image: url("./Img/cards.jpg");
-    /* background-color: white; */
-    /* border-style: solid;
-    border-color: black;
-    border-width: 1px; */
 }
 
 .card.done {

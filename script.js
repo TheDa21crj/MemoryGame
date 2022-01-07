@@ -21,8 +21,6 @@ function mom(event) {
                     event.target.className.replace("done", "").trim() + " c-hideq";
                 s = null;
                 fa = fa + 1;
-                // event.target.className.style.opacity = "1";
-                // event.target.className.style.visibility = "visible";
                 document.getElementsByTagName("body").cursor = "pointer";
                 document.getElementById("ScoreBoard").innerHTML = fa;
             }, 500);
