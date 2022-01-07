@@ -4,6 +4,12 @@
     color: white;
 }
 
+
+/* body {
+    background-color: rgb(13, 17, 23);
+    color: white;
+} */
+
 .card {
     margin: 20px;
     display: inline-block;
@@ -19,10 +25,13 @@
 .spiderman1,
 .joker1,
 .tiger1,
-.superman1 {
+.superman1,
+.c-hideq {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
 .batman1 {
@@ -35,7 +44,6 @@
 
 .joker1 {
     background-image: url("./Img/kingpin.jpg");
-    background-repeat: no-repeat;
 }
 
 .tiger1 {
@@ -48,7 +56,6 @@
 
 .c-hideq {
     background-image: url("./cards.svg");
-    transition: all 0.3s;
 }
 
 .card.done {
