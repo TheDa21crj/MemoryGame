@@ -15,43 +15,40 @@
     border-width: 1px;
 }
 
-.batman1 {
-    background-image: url("./Img/Daredevil.jpg");
+.batman1,
+.spiderman1,
+.joker1,
+.tiger1,
+.superman1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.batman1 {
+    background-image: url("./Img/Daredevil.jpg");
 }
 
 .spiderman1 {
     background-image: url("./Img/deadpool.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .joker1 {
     background-image: url("./Img/kingpin.jpg");
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .tiger1 {
     background-image: url("./Img/spiderman.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .superman1 {
     background-image: url("./Img/supergirl.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .c-hideq {
     background-image: url("./cards.svg");
+    transition: all 0.3s;
 }
 
 .card.done {
