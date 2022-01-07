@@ -14,7 +14,6 @@ function mom(event) {
         if (
             s.getAttribute("data-color") !== event.target.getAttribute("data-color")
         ) {
-            console.log("cards are NOT equal");
             setTimeout(() => {
                 s.className = s.className.replace("done", "").trim() + " c-hideq";
                 event.target.className =
