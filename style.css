@@ -4,12 +4,6 @@
     color: white;
 }
 
-
-/* body {
-    background-color: rgb(13, 17, 23);
-    color: white;
-} */
-
 .card {
     margin: 20px;
     display: inline-block;
@@ -34,6 +28,10 @@
     cursor: pointer;
 }
 
+.c-hideq:hover {
+    background-image: url("./SVG/cardsHover.svg");
+}
+
 .batman1 {
     background-image: url("./Img/Daredevil.jpg");
 }
@@ -55,7 +53,7 @@
 }
 
 .c-hideq {
-    background-image: url("./cards.svg");
+    background-image: url("./SVG/cards.svg");
 }
 
 .card.done {
