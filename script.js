@@ -25,7 +25,6 @@ function mom(event) {
                 fa = fa + 1;
                 document.getElementsByTagName("body").cursor = "pointer";
                 document.getElementById("ScoreBoard").innerHTML = fa;
-                alert("cards are not same");
             }, 500);
         } else {
             sb = sb + 1;
