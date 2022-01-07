@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap");
+*::selection {
+    background-color: gold;
+    color: white;
+}
+
 .card {
-    margin: 10px;
+    margin: 20px;
     background-color: green;
     display: inline-block;
     height: 200px;
