@@ -4,9 +4,18 @@
     color: white;
 }
 
+#svgDiv svg {
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
 .card {
     margin: 20px;
-    background-color: green;
+    /* background-image: url("./Img/cards.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
     display: inline-block;
     height: 200px;
     width: 200px;
@@ -14,7 +23,7 @@
 }
 
 .card:hover {
-    background-color: blue;
+    background-color: orange;
 }
 
 .batman1 {
@@ -59,6 +68,10 @@
 
 .c-hideq {
     background-color: green;
+    /* background-color: white; */
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 .card.done {
