@@ -1,5 +1,23 @@
 nav {
+    position: relative;
     text-align: center;
     background-color: gold;
     padding: 8px;
+    color: white;
+    height: 20px;
+}
+
+nav p {
+    position: absolute;
+    animation: NavWork 1s ease;
+    background-color: red;
+}
+
+@keyframes NavWork {
+    from {
+        top: 100px;
+    }
+    to {
+        top: 8px;
+    }
 }
