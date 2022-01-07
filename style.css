@@ -77,7 +77,8 @@ p {
 }
 
 .scoreDiv {
-    background-color: red;
     text-align: center;
     font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
 }

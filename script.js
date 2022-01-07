@@ -13,14 +13,16 @@ function mom(event) {
     if (!s) {
         s = event.target;
     } else if (s) {
-        if (s.getAttribute("data-color") !== event.target.getAttribute("data-color")) {
+        if (
+            s.getAttribute("data-color") !== event.target.getAttribute("data-color")
+        ) {
             console.log("cards are NOT equal");
             setTimeout(() => {
                 s.className = s.className.replace("done", "").trim() + " c-hideq";
-                event.target.className = event.target.className.replace("done", "").trim() + " c-hideq";
+                event.target.className =
+                    event.target.className.replace("done", "").trim() + " c-hideq";
                 s = null;
                 fa = fa + 1;
-                // document.getElementById(id).style.property = new style
                 document.getElementsByTagName("body").cursor = "pointer";
                 document.getElementById("ScoreBoard").innerHTML = fa;
                 alert("cards are not same");
