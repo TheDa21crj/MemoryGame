@@ -10,6 +10,13 @@
     display: none;
 }
 
+.CardImg {
+    opacity: 0;
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+}
+
 .card {
     margin: 20px;
     /* background-image: url("./Img/cards.jpg");
@@ -28,7 +35,7 @@
 
 .batman1 {
     background-color: black;
-    /* background-image: url("batman.jpg"); */
+    /* background-image: url("./Img/Daredevil.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +43,7 @@
 
 .spiderman1 {
     background-color: red;
-    /* background-image: url("spiderman-latest-wallpaper.jpg"); */
+    /* background-image: url("./Img/deadpool.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +51,7 @@
 
 .joker1 {
     background-color: violet;
-    /* background-image: url("joker.jpg"); */
+    /* background-image: url("./Img/kingpin.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +59,7 @@
 
 .tiger1 {
     background-color: yellow;
-    /* background-image: url("tiger.jpg"); */
+    /* background-image: url("./Img/spiderman.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +67,7 @@
 
 .superman1 {
     background-color: blue;
-    /* background-image: url("superman.jpg"); */
+    /* background-image: url("./Img/supergirl.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,9 +76,9 @@
 .c-hideq {
     background-color: green;
     /* background-color: white; */
-    border-style: solid;
+    /* border-style: solid;
     border-color: black;
-    border-width: 1px;
+    border-width: 1px; */
 }
 
 .card.done {
