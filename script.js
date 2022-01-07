@@ -6,10 +6,8 @@ function mom(event) {
     if (event.target === s || event.target.className.includes("done")) {
         return;
     }
-
     event.target.className = event.target.className.replace("c-hideq", "").trim();
     event.target.className += " done";
-
     if (!s) {
         s = event.target;
     } else if (s) {

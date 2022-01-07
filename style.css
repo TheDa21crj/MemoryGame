@@ -4,11 +4,12 @@
     color: white;
 }
 
-#svgDiv svg {
+
+/* #svgDiv svg {
     width: 200px;
     height: 200px;
     display: none;
-}
+} */
 
 .CardImg {
     opacity: 0;
@@ -19,15 +20,20 @@
 
 .card {
     margin: 20px;
-    /* background-image: url("./Img/cards.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     display: inline-block;
     height: 200px;
     width: 200px;
     border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
+
+
+/* .card:hover>#svgDiv svg {
+    display: flex;
+    background-color: orange;
+} */
 
 .card:hover {
     background-color: orange;
@@ -74,7 +80,8 @@
 }
 
 .c-hideq {
-    background-color: green;
+    /* background-color: green; */
+    background-image: url("./Img/cards.jpg");
     /* background-color: white; */
     /* border-style: solid;
     border-color: black;
