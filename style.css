@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap");
 .card {
     margin: 10px;
     background-color: green;
@@ -73,4 +74,10 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.scoreDiv {
+    background-color: red;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
 }
