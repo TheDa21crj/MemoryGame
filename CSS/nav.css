@@ -4,18 +4,19 @@ nav {
     background-color: gold;
     padding: 8px;
     color: white;
-    height: 20px;
+    height: 25px;
 }
 
-nav p {
+.navcDiv {
     position: absolute;
     animation: NavWork 1s ease;
     background-color: red;
+    width: 99%;
 }
 
 @keyframes NavWork {
     from {
-        top: 100px;
+        top: 96vh;
     }
     to {
         top: 8px;
