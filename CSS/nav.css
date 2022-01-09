@@ -1,5 +1,4 @@
 nav {
-    position: relative;
     text-align: center;
     background-color: gold;
     padding: 8px;
@@ -7,18 +6,20 @@ nav {
     height: 25px;
 }
 
-.navcDiv {
+
+/* .navcDiv {} */
+
+.svgDiv {
+    opacity: 0;
+    visibility: hidden;
     position: absolute;
-    animation: NavWork 1s ease;
     background-color: red;
-    width: 99%;
+    top: 3%;
+    left: 1%;
+    width: 40%;
+    border-radius: 10px;
 }
 
-@keyframes NavWork {
-    from {
-        top: 96vh;
-    }
-    to {
-        top: 8px;
-    }
+#navSvg {
+    height: 96vh;
 }
