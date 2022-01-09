@@ -6,6 +6,26 @@ nav {
     height: 25px;
 }
 
+.navcDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.navcDiv p {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+
+.navcDiv p:hover {
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
 #svgDiv {
     opacity: 0;
     visibility: hidden;
@@ -80,4 +100,8 @@ nav {
     animation: bur3A 0.5s ease;
     transform-origin: left;
     transform: rotate(-45deg);
+}
+
+.logoImg {
+    height: 30px;
 }
