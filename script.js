@@ -1,6 +1,7 @@
 let s = null;
-let sb = 0;
-let fa = 0;
+let sb = 0,
+    fa = 0,
+    hB = 0;
 
 function mom(event) {
     if (event.target === s || event.target.className.includes("done")) {
@@ -32,5 +33,16 @@ function mom(event) {
                 document.getElementById("ScoreBoard2").innerHTML = sb;
             }
         }
+    }
+}
+
+function hamburger(event) {
+    hB++;
+    if (hB % 2 == 0) {
+        document.getElementById("svgDiv").style.opacity = "0";
+        document.getElementById("svgDiv").style.visibility = "hidden";
+    } else {
+        document.getElementById("svgDiv").style.opacity = "1";
+        document.getElementById("svgDiv").style.visibility = "visible";
     }
 }
