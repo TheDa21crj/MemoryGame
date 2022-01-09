@@ -19,7 +19,7 @@ nav {
     border-radius: 10px;
     backdrop-filter: blur(2rem);
     box-shadow: 10px 10px 100px rgba(161, 161, 161, 0.5);
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 #navSvg {
@@ -36,7 +36,8 @@ nav {
     border-radius: 5px;
     border-color: transparent;
     cursor: pointer;
-    transition: all 0.3s;
+    overflow: hidden;
+    transition: all 0.5s;
 }
 
 .burger:hover {
@@ -48,4 +49,33 @@ nav {
     height: 2px;
     background-color: white;
     margin-bottom: 5px;
+}
+
+#bur1,
+#bur2,
+#bur3 {
+    transition: all 0.5s;
+}
+
+#burger1,
+#burger2,
+#burger3 {
+    transition: all 0.5s;
+}
+
+#burger1 {
+    animation: bur1A 0.5s ease;
+    transform: rotate(45deg);
+    transform-origin: left;
+}
+
+#burger2 {
+    animation: bur2A 0.5s ease;
+    transform: translateX(26px);
+}
+
+#burger3 {
+    animation: bur3A 0.5s ease;
+    transform-origin: left;
+    transform: rotate(-45deg);
 }

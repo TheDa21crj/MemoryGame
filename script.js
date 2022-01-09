@@ -41,8 +41,14 @@ function hamburger(event) {
     if (hB % 2 == 0) {
         document.getElementById("svgDiv").style.opacity = "0";
         document.getElementById("svgDiv").style.visibility = "hidden";
+        document.getElementById("burger1").id = "bur1";
+        document.getElementById("burger2").id = "bur2";
+        document.getElementById("burger3").id = "bur3";
     } else {
         document.getElementById("svgDiv").style.opacity = "1";
         document.getElementById("svgDiv").style.visibility = "visible";
+        document.getElementById("bur1").id = "burger1";
+        document.getElementById("bur2").id = "burger2";
+        document.getElementById("bur3").id = "burger3";
     }
 }
