@@ -9,6 +9,7 @@ nav {
 #svgDiv {
     opacity: 0;
     visibility: hidden;
+    transform: translateX(-500px);
     position: absolute;
     background: white;
     padding: 1%;
@@ -20,6 +21,7 @@ nav {
     backdrop-filter: blur(2rem);
     box-shadow: 10px 10px 100px rgba(161, 161, 161, 0.5);
     transition: all 0.5s;
+    transition-delay: 0.3s;
 }
 
 #navSvg {
