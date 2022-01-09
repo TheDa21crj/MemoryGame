@@ -45,6 +45,8 @@ function hamburger(event) {
         document.getElementById("burger1").id = "bur1";
         document.getElementById("burger2").id = "bur2";
         document.getElementById("burger3").id = "bur3";
+        document.getElementById("raisedH").id = "raisedHand";
+        document.getElementById("onH").id = "onHand";
     } else {
         document.getElementById("svgDiv").style.opacity = "1";
         document.getElementById("svgDiv").style.visibility = "visible";
@@ -52,5 +54,7 @@ function hamburger(event) {
         document.getElementById("bur1").id = "burger1";
         document.getElementById("bur2").id = "burger2";
         document.getElementById("bur3").id = "burger3";
+        document.getElementById("raisedHand").id = "raisedH";
+        document.getElementById("onHand").id = "onH";
     }
 }

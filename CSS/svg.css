@@ -1,3 +1,31 @@
-/* #gitHub {
-    display: none;
-} */
+#raisedH {
+    animation: raiseHand 1s linear;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    transform-origin: left;
+}
+
+@keyframes raiseHand {
+    from {
+        transform: rotate3d(1, 0, 1, 2deg);
+    }
+    to {
+        transform: rotate3d(1, 0, 1, -2deg);
+    }
+}
+
+#onH {
+    animation: onHA 1s linear;
+    animation-delay: 1s;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes onHA {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(20deg);
+    }
+}
