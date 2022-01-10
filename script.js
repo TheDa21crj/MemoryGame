@@ -44,6 +44,8 @@ function hamburger(event) {
         document.getElementById("svgDiv").style.visibility = "hidden";
         document.getElementById("svgDiv").style.transform = "translateX(-500px)";
         document.getElementById("burger1").id = "bur1";
+        document.getElementById("emailVal").style.opacity = "0";
+        document.getElementById("emailVal").style.visibility = "hidden";
         document.getElementById("burger2").id = "bur2";
         document.getElementById("burger3").id = "bur3";
         document.getElementById("raisedH").id = "raisedHand";
@@ -61,12 +63,12 @@ function hamburger(event) {
 }
 
 function emailF(event) {
-    eM++;
-    if (eM % 2 == 0) {
-        document.getElementById("emailVal").style.opacity = "0";
-        document.getElementById("emailVal").style.visibility = "hidden";
-    } else {
+    setTimeout(() => {
         document.getElementById("emailVal").style.opacity = "1";
         document.getElementById("emailVal").style.visibility = "visible";
-    }
+        setTimeout(() => {
+            document.getElementById("emailVal").style.opacity = "0";
+            document.getElementById("emailVal").style.visibility = "hidden";
+        }, 8000);
+    });
 }

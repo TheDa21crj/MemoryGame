@@ -107,10 +107,11 @@ nav {
 }
 
 #emailVal {
+    outline: none;
     opacity: 0;
     visibility: hidden;
     position: fixed;
-    top: 10%;
+    top: 9%;
     right: 5%;
     background-color: red;
     border-style: none;
@@ -120,6 +121,6 @@ nav {
     background: white;
     background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
     backdrop-filter: blur(2rem);
-    box-shadow: 10px 10px 100px rgba(161, 161, 161, 0.5);
-    transition: all 0.5s;
+    box-shadow: 10px 10px 100px rgb(161, 161, 161);
+    transition: all 0.3s;
 }
