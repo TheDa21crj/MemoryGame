@@ -126,3 +126,9 @@ nav {
     box-shadow: 10px 10px 100px rgb(161, 161, 161);
     transition: all 0.3s;
 }
+
+#emailInp {
+    border-style: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
