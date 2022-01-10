@@ -28,7 +28,16 @@ function mom(event) {
             sb = sb + 1;
             s = null;
             if (sb == 5) {
-                alert("You Have Won in " + fa + " failed attempts");
+                setTimeout(() => {
+                    document.getElementById("alert").style.opacity = "1";
+                    document.getElementById("alert").style.visibility = "visible";
+                    document.getElementById("alert").innerHTML =
+                        "You Have Won in " + fa + " failed attempts";
+                    setTimeout(() => {
+                        document.getElementById("alert").style.opacity = "0";
+                        document.getElementById("alert").style.visibility = "hidden";
+                    }, 500);
+                });
                 document.getElementById("ScoreBoard").innerHTML = fa;
                 document.getElementById("ScoreBoard2").innerHTML = sb;
             }
@@ -80,6 +89,7 @@ function copyClip(event) {
     setTimeout(() => {
         document.getElementById("alert").style.opacity = "1";
         document.getElementById("alert").style.visibility = "visible";
+        document.getElementById("alert").innerHTML = "Copied to clipboard";
         setTimeout(() => {
             document.getElementById("alert").style.opacity = "0";
             document.getElementById("alert").style.visibility = "hidden";
