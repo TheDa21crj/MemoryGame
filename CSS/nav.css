@@ -128,7 +128,13 @@ nav {
 }
 
 #emailInp {
+    outline: none;
     border-style: none;
     border-radius: 10px;
     background-color: transparent;
+}
+
+#emailInp::selection {
+    background-color: transparent;
+    color: black;
 }

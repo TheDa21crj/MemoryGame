@@ -68,6 +68,14 @@ function emailF(event) {
         setTimeout(() => {
             document.getElementById("emailVal").style.opacity = "0";
             document.getElementById("emailVal").style.visibility = "hidden";
-        }, 8000);
+        }, 3000);
     });
+}
+
+function copyClip(event) {
+    var copyText = document.getElementById("emailInp");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
+    alert("Copied the text: " + copyText.value);
 }
