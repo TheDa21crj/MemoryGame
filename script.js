@@ -77,5 +77,12 @@ function copyClip(event) {
     copyText.select();
     copyText.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(copyText.value);
-    alert("Copied the text: " + copyText.value);
+    setTimeout(() => {
+        document.getElementById("alert").style.opacity = "1";
+        document.getElementById("alert").style.visibility = "visible";
+        setTimeout(() => {
+            document.getElementById("alert").style.opacity = "0";
+            document.getElementById("alert").style.visibility = "hidden";
+        }, 500);
+    });
 }

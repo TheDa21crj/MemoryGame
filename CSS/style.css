@@ -87,3 +87,24 @@ p {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+#alert {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    padding: 1% 2%;
+    border-radius: 10px;
+    background: white;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
+    backdrop-filter: blur(2rem);
+    box-shadow: 10px 10px 100px rgb(161, 161, 161);
+    transition: all 0.3s;
+    cursor: not-allowed;
+}
+
+#alert::selection {
+    background-color: transparent;
+    color: black;
+}
