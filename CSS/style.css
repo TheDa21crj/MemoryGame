@@ -81,11 +81,15 @@ p {
     align-items: center;
 }
 
-.scoreDiv {
+#scoreMdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
     font-family: "Work Sans", sans-serif;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 #alert {
