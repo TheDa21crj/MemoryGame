@@ -1,8 +1,7 @@
 let s = null;
 let sb = 0,
     fa = 0,
-    hB = 0,
-    eM = 0;
+    hB = 0;
 
 function mom(event) {
     if (event.target === s || event.target.className.includes("done")) {
