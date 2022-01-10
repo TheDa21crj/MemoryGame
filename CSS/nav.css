@@ -109,7 +109,7 @@ nav {
 #emailVal {
     opacity: 0;
     visibility: hidden;
-    position: fixed;
+    position: absolute;
     top: 9%;
     right: 5%;
     display: flex;
