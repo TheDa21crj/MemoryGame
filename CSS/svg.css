@@ -29,3 +29,7 @@
         transform: rotate(20deg);
     }
 }
+
+#gmailDiv {
+    cursor: pointer;
+}

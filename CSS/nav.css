@@ -121,4 +121,5 @@ nav {
     background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
     backdrop-filter: blur(2rem);
     box-shadow: 10px 10px 100px rgba(161, 161, 161, 0.5);
+    transition: all 0.5s;
 }

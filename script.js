@@ -1,7 +1,8 @@
 let s = null;
 let sb = 0,
     fa = 0,
-    hB = 0;
+    hB = 0,
+    eM = 0;
 
 function mom(event) {
     if (event.target === s || event.target.className.includes("done")) {
@@ -56,5 +57,16 @@ function hamburger(event) {
         document.getElementById("bur3").id = "burger3";
         document.getElementById("raisedHand").id = "raisedH";
         document.getElementById("onHand").id = "onH";
+    }
+}
+
+function emailF(event) {
+    eM++;
+    if (eM % 2 == 0) {
+        document.getElementById("emailVal").style.opacity = "0";
+        document.getElementById("emailVal").style.visibility = "hidden";
+    } else {
+        document.getElementById("emailVal").style.opacity = "1";
+        document.getElementById("emailVal").style.visibility = "visible";
     }
 }
