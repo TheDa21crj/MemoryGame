@@ -36,6 +36,7 @@ nav {
     background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
     top: 3%;
     left: 1%;
+    min-width: 512px;
     width: 40%;
     border-radius: 10px;
     backdrop-filter: blur(2rem);
