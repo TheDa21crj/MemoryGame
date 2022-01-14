@@ -27,6 +27,8 @@ function mom(event) {
             }, 500);
         } else {
             sb = sb + 1;
+            document.getElementById("ScoreBoard2").innerHTML = sb;
+            document.getElementById("scoreDiv").style.color = "gold";
             s = null;
             if (sb == 5) {
                 setTimeout(() => {
@@ -41,6 +43,7 @@ function mom(event) {
                 });
                 document.getElementById("ScoreBoard").innerHTML = fa;
                 document.getElementById("ScoreBoard2").innerHTML = sb;
+                document.getElementById("scoreDiv").style.textDecoration = "underline";
             }
         }
     }
