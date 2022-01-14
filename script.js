@@ -22,7 +22,7 @@ function mom(event) {
                 s = null;
                 fa = fa + 1;
                 document.getElementsByTagName("body").cursor = "pointer";
-                document.getElementById("ScoreBoard").innerHTML = fa;
+                document.getElementById("ScoreBoard").innerHTML = "-" + fa;
             }, 500);
         } else {
             sb = sb + 1;
