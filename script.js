@@ -23,6 +23,7 @@ function mom(event) {
                 fa = fa + 1;
                 document.getElementsByTagName("body").cursor = "pointer";
                 document.getElementById("ScoreBoard").innerHTML = "-" + fa;
+                document.getElementById("failedAttempet").style.color = "#f45725";
             }, 500);
         } else {
             sb = sb + 1;
