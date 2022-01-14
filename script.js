@@ -43,7 +43,6 @@ function mom(event) {
                 });
                 document.getElementById("ScoreBoard").innerHTML = fa;
                 document.getElementById("ScoreBoard2").innerHTML = sb;
-                document.getElementById("scoreDiv").style.textDecoration = "underline";
             }
         }
     }
