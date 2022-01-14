@@ -79,6 +79,10 @@
     text-align: center;
 }
 
+#ruleDivText h1:hover {
+    text-decoration: underline;
+}
+
 #ruleDivText p {
     font-family: "Roboto", sans-serif;
     text-align: justify;
