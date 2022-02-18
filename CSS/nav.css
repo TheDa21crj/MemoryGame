@@ -87,18 +87,15 @@ nav {
 }
 
 #burger1 {
-    animation: bur1A 0.5s ease;
     transform: rotate(45deg);
     transform-origin: left;
 }
 
 #burger2 {
-    animation: bur2A 0.5s ease;
     transform: translateX(26px);
 }
 
 #burger3 {
-    animation: bur3A 0.5s ease;
     transform-origin: left;
     transform: rotate(-45deg);
 }
