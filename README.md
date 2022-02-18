@@ -53,6 +53,15 @@ and a glass interface to enhance player experience.
     box-shadow: 10px 10px 100px rgba(161, 161, 161, 0.5);
 ```
 
+The project also contains a **Copy To Clipboard** to copy the developer's email.
+
+```bash
+    var copyText = document.getElementById("emailInp");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
+```
+
 ## Author
 
 - [@TheDa21crj](https://github.com/TheDa21crj)
