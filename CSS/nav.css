@@ -146,6 +146,13 @@ nav {
     }
 }
 
+@media only screen and (max-width: 900px) {
+    .burger {
+        border-style: none;
+        border-width: 0px;
+    }
+}
+
 @media only screen and (max-width: 530px) {
     #svgDiv {
         left: 5%;
