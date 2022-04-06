@@ -45,6 +45,19 @@ This project's interface uses DOM Manipulation to create a toggle effect on the 
     document.getElementById("bur3").id = "burger3";
 ```
 
+To make the game more interesting we have made the cards to flip when clicked
+
+```bash
+    .done {
+        transform: rotateY(180deg);
+    }
+
+    .card {
+        transform-style: preserve-3d;
+        transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+```
+
 and a glass interface to enhance player experience.
 
 ```bash
