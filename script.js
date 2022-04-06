@@ -2,7 +2,32 @@ let clickedCard = null;
 let NoClick = false;
 let score = 0;
 
-const color = [];
+const colors = [
+    "orange",
+    "green",
+    "darkcyan",
+    "pink",
+    "yellow",
+    "blue",
+    "orchid",
+    "maroon",
+];
+
+const cards = [...document.querySelectorAll(".card")];
+for (let color of colors) {
+    const cardAIndex = parseInt(Math.random() * cards.length);
+    const cardA = cards[cardAIndex];
+    cards.splice(cardAIndex, 1);
+    cardA.className += `${color}`;
+    cardA.setAttribute("data-color", color);
+
+    const cardBIndex = parseInt(Math.random() * cards.length);
+    const cardB = cards[cardBIndex];
+    cards.splice(cardBIndex, 1);
+
+    cardB.className += `${color}`;
+    cardB.setAttribute("data-color", color);
+}
 
 function cardClicked(e) {
     let target = e.target;
