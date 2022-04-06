@@ -1,3 +1,3 @@
-function cardClicked(event) {
-    console.log("clicked", event.currentTarget);
+function cardClicked(e) {
+    console.log(e.target);
 }
