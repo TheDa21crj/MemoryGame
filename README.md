@@ -4,8 +4,6 @@ This is a simple Memory Game build by me. The game has features like showing of 
 
 ## 🔗 Links
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://prortfolio.pages.dev/)
-
 This web page has been deployed at Cloudflare and below is the link:
 
 [![Memory Game](https://img.shields.io/badge/-Memory%20Game-yellow)](https://memorygame-8av.pages.dev/)
