@@ -1,0 +1,50 @@
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.card:hover {
+    border-color: black;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.orchid {
+    background-color: orchid;
+}
+
+.darkcyan {
+    background-color: darkcyan;
+}
+
+.maroon {
+    background-color: maroon;
+}
