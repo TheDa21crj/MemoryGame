@@ -41,6 +41,7 @@ nav {
     box-shadow: 10px 10px 100px rgba(161, 161, 161, 0.5);
     transition: all 0.5s;
     transition-delay: 0.3s;
+    overflow: hidden;
 }
 
 #navSvg {
@@ -135,4 +136,11 @@ nav {
     color: black;
 }
 
-@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 500px) {
+    .navcDiv p {
+        font-size: 2rem;
+    }
+    .burger {
+        top: 2%;
+    }
+}
