@@ -148,6 +148,7 @@ nav {
 
 @media only screen and (max-width: 530px) {
     #svgDiv {
+        left: 5%;
         min-width: 90%;
     }
     #navSvg {
