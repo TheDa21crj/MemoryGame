@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*::selection {
+    background-color: gold;
+    color: white;
+}
+
+.card {
+    margin: 20px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.batman1,
+.spiderman1,
+.joker1,
+.tiger1,
+.superman1,
+.c-hideq {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.c-hideq:hover {
+    background-image: url("./../SVG/cardsHover.svg");
+}
+
+.batman1 {
+    background-image: url("./../Img/Daredevil.jpg");
+}
+
+.spiderman1 {
+    background-image: url("./../Img/deadpool.jpg");
+}
+
+.joker1 {
+    background-image: url("./../Img/kingpin.jpg");
+}
+
+.tiger1 {
+    background-image: url("./../Img/spiderman.jpg");
+}
+
+.superman1 {
+    background-image: url("./../Img/supergirl.jpg");
+}
+
+.c-hideq {
+    background-image: url("./../SVG/cards.svg");
+}
+
+.card.done {
+    cursor: default;
+}
+
+.card.done:hover {
+    cursor: default;
+    background-color: none;
+}
+
+p {
+    display: inline-block;
+}
+
+.cardsCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreMdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#alert {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    padding: 1% 2%;
+    border-radius: 10px;
+    background: white;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
+    backdrop-filter: blur(2rem);
+    box-shadow: 10px 10px 100px rgb(161, 161, 161);
+    transition: all 0.3s;
+    cursor: not-allowed;
+}
+
+#alert::selection {
+    background-color: transparent;
+    color: black;
+}
