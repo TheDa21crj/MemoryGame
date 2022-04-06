@@ -2,6 +2,7 @@ let s = null;
 let sb = 0,
     fa = 0,
     hB = 0;
+perventClick = false;
 
 const colors = ["batman1", "spiderman1", "superman1", "joker1", "tiger1"];
 
@@ -22,7 +23,11 @@ for (let color of colors) {
 }
 
 function mom(event) {
-    if (event.target === s || event.target.className.includes("done")) {
+    if (
+        perventClick ||
+        event.target === s ||
+        event.target.className.includes("done")
+    ) {
         return;
     }
     event.target.className = event.target.className.replace("c-hideq", "").trim();
@@ -33,6 +38,7 @@ function mom(event) {
         if (
             s.getAttribute("data-color") !== event.target.getAttribute("data-color")
         ) {
+            perventClick = true;
             setTimeout(() => {
                 s.className = s.className.replace("done", "").trim() + " c-hideq";
                 event.target.className =
@@ -42,6 +48,7 @@ function mom(event) {
                 document.getElementsByTagName("body").cursor = "pointer";
                 document.getElementById("ScoreBoard").innerHTML = "-" + fa;
                 document.getElementById("failedAttempet").style.color = "#f45725";
+                perventClick = false;
             }, 500);
         } else {
             sb = sb + 1;
