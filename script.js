@@ -3,6 +3,24 @@ let sb = 0,
     fa = 0,
     hB = 0;
 
+const colors = ["batman1", "spiderman1", "superman1", "joker1", "tiger1"];
+
+const cards = [...document.querySelectorAll(".card")];
+for (let color of colors) {
+    const cardAIndex = parseInt(Math.random() * cards.length);
+    const cardA = cards[cardAIndex];
+    cards.splice(cardAIndex, 1);
+    cardA.className += ` ${color}`;
+    cardA.setAttribute("data-color", color);
+
+    const cardBIndex = parseInt(Math.random() * cards.length);
+    const cardB = cards[cardBIndex];
+    cards.splice(cardBIndex, 1);
+
+    cardB.className += ` ${color}`;
+    cardB.setAttribute("data-color", color);
+}
+
 function mom(event) {
     if (event.target === s || event.target.className.includes("done")) {
         return;
