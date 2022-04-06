@@ -147,6 +147,9 @@ nav {
 }
 
 @media only screen and (max-width: 500px) {
+    #svgDiv {
+        top: 11%;
+    }
     .navcDiv p {
         font-size: 2rem;
     }
@@ -154,3 +157,5 @@ nav {
         top: 2%;
     }
 }
+
+@media only screen and (max-width: 350px) {}
