@@ -61,7 +61,7 @@
     background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d36bd7a9a546b49850d5b_cards.svg");
 }
 
-.card.done {
+.done {
     cursor: default;
 }
 
