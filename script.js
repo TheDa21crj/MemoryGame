@@ -2,6 +2,8 @@ let clickedCard = null;
 let NoClick = false;
 let score = 0;
 
+const color = [];
+
 function cardClicked(e) {
     let target = e.target;
 
