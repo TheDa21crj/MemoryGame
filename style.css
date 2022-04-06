@@ -52,3 +52,7 @@
 .colorHidden {
     background-color: #eee;
 }
+
+.done {
+    cursor: default;
+}
