@@ -1,3 +1,4 @@
 function cardClicked(e) {
-    console.log(e.target);
+    let target = e.target;
+    target.className = target.className.replace("colorHidden", "").trim();
 }
