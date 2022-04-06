@@ -125,3 +125,26 @@ p {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
 }
+
+@media only screen and (max-width: 600px) {
+    #scoreMdiv {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #scoreMdiv {
+        flex-direction: column-reverse;
+        font-size: 2rem;
+    }
+    #scoreDiv,
+    #failedAttempet {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #scoreMdiv {
+        font-size: 1.5rem;
+    }
+}

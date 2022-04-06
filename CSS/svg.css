@@ -50,6 +50,7 @@
 }
 
 .ruleImgDiv {
+    position: relative;
     transition: all 0.5s;
 }
 
@@ -62,6 +63,7 @@
     opacity: 0;
     visibility: hidden;
     position: absolute;
+    top: 0px;
     right: 30px;
     width: 400px;
     border-style: none;
@@ -93,4 +95,35 @@
 .ruleImgDiv:hover>#ruleDivText {
     opacity: 1;
     visibility: visible;
+}
+
+@media only screen and (max-width: 520px) {
+    #ruleDivText {
+        width: 350px;
+        right: 20px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    #ruleDivText {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #ruleDivText {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #ruleDivText {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #ruleDivText {
+        width: 200px;
+    }
 }
