@@ -1,26 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap");
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 *::selection {
-    background-color: gold;
-    color: white;
+  background-color: gold;
+  color: white;
 }
 
 .card {
-    display: inline-block;
-    height: 100%;
-    min-height: 200px;
-    width: 100%;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    transform-style: preserve-3d;
-    transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  display: inline-block;
+  height: 100%;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  transform-style: preserve-3d;
+  transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
 }
 
 .batman1,
@@ -29,126 +29,130 @@
 .tiger1,
 .superman1,
 .c-hideq {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all 0.3s;
-    cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .c-hideq:hover {
-    background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d36bd097ff23e0517f72b_cardsHover.svg");
+  background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d36bd097ff23e0517f72b_cardsHover.svg");
 }
 
 .batman1 {
-    background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d3617e5e86fe24b46bb3b_Daredevil.jpg");
+  background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d3617e5e86fe24b46bb3b_Daredevil.jpg");
 }
 
 .spiderman1 {
-    background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d3618b2ee8cb2afd2435c_deadpool.jpg");
+  background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d3618b2ee8cb2afd2435c_deadpool.jpg");
 }
 
 .joker1 {
-    background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d3617e7b206f9e1744fa5_kingpin.jpg");
+  background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d3617e7b206f9e1744fa5_kingpin.jpg");
 }
 
 .tiger1 {
-    background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d36178b403b2850f5d03b_spiderman.jpg");
+  background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d36178b403b2850f5d03b_spiderman.jpg");
 }
 
 .superman1 {
-    background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d361716f6b27240debc3a_supergirl.jpg");
+  background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d361716f6b27240debc3a_supergirl.jpg");
 }
 
 .c-hideq {
-    background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d36bd7a9a546b49850d5b_cards.svg");
+  background-image: url("https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624d36bd7a9a546b49850d5b_cards.svg");
 }
 
 .done {
-    cursor: default;
-    transform: rotateY(180deg);
+  cursor: default;
+  transform: rotateY(180deg);
 }
 
 .card.done:hover {
-    cursor: default;
-    background-color: none;
+  cursor: default;
+  background-color: none;
 }
 
 p {
-    display: inline-block;
+  display: inline-block;
 }
 
 .cardsCon {
-    margin: 20px 20px 20px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cardRow {
-    width: 100%;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 #scoreMdiv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    font-family: "Work Sans", sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 #alert {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    bottom: 3%;
-    right: 3%;
-    padding: 1% 2%;
-    border-radius: 10px;
-    background: white;
-    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
-    backdrop-filter: blur(2rem);
-    box-shadow: 10px 10px 100px rgb(161, 161, 161);
-    transition: all 0.3s;
-    cursor: not-allowed;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  padding: 1% 2%;
+  border-radius: 10px;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.5)
+  );
+  backdrop-filter: blur(2rem);
+  box-shadow: 10px 10px 100px rgb(161, 161, 161);
+  transition: all 0.3s;
+  cursor: not-allowed;
 }
 
 #alert::selection {
-    background-color: transparent;
-    color: black;
+  background-color: transparent;
+  color: black;
 }
 
 @media only screen and (max-width: 460px) {
-    .cardRow {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
+  .cardRow {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    #scoreMdiv {
-        font-size: 1.5rem;
-    }
+  #scoreMdiv {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    #scoreMdiv {
-        flex-direction: column-reverse;
-        font-size: 2rem;
-    }
-    #scoreDiv,
-    #failedAttempet {
-        margin-bottom: 20px;
-    }
+  #scoreMdiv {
+    flex-direction: column-reverse;
+    font-size: 2rem;
+  }
+  #scoreDiv,
+  #failedAttempet {
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 360px) {
-    #scoreMdiv {
-        font-size: 1.5rem;
-    }
+  #scoreMdiv {
+    font-size: 1.5rem;
+  }
 }
