@@ -13,10 +13,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 .maxDiv {
-  max-width: 1700px;
+  position: relative;
+  width: 1700px;
+  background-color: #fff;
 }
 
 .card {
