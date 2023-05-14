@@ -9,6 +9,16 @@
   color: white;
 }
 
+.mainBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maxDiv {
+  max-width: 1700px;
+}
+
 .card {
   display: inline-block;
   height: 100%;
